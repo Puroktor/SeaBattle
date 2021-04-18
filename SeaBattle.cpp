@@ -27,7 +27,7 @@ bool tryToPlace(int n, int m, int* available, int** mat) {
                 return false;
         }
     return true;
-}
+} // O(m^2 * n^2)
 
 int main()
 {
